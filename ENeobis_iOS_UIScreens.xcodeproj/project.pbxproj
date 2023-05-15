@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12EE3591E0B9B75BBCE52ACC /* Pods_ENeobis_iOS_UIScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DCAE4C299350949E067179 /* Pods_ENeobis_iOS_UIScreens.framework */; };
+		7F531A2E2A1227F90026BBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F531A2C2A1227F90026BBAD /* Main.storyboard */; };
+		7F531A302A1227F90026BBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F531A2F2A1227F90026BBAD /* Assets.xcassets */; };
+		7F531A332A1227F90026BBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F531A312A1227F90026BBAD /* LaunchScreen.storyboard */; };
+		7F531A3F2A1228F70026BBAD /* Serials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A3B2A1228F70026BBAD /* Serials.swift */; };
+		7F531A402A1228F70026BBAD /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A3C2A1228F70026BBAD /* Finance.swift */; };
+		7F531A412A1228F70026BBAD /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A3D2A1228F70026BBAD /* Crypto.swift */; };
+		7F531A422A1228F70026BBAD /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A3E2A1228F70026BBAD /* Weather.swift */; };
+		7F531A482A12290A0026BBAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A452A12290A0026BBAD /* MainViewController.swift */; };
+		7F531A492A12290A0026BBAD /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A462A12290A0026BBAD /* MainViewCell.swift */; };
+		7F531A522A1229110026BBAD /* WeatherMiddleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A4B2A1229110026BBAD /* WeatherMiddleCollectionViewController.swift */; };
+		7F531A532A1229110026BBAD /* WeatherWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A4C2A1229110026BBAD /* WeatherWeekView.swift */; };
+		7F531A542A1229110026BBAD /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A4D2A1229110026BBAD /* WeatherViewController.swift */; };
+		7F531A562A1229110026BBAD /* WeatherBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A4F2A1229110026BBAD /* WeatherBottomCell.swift */; };
+		7F531A572A1229110026BBAD /* WeatherBottomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A502A1229110026BBAD /* WeatherBottomCollectionViewController.swift */; };
+		7F531A582A1229110026BBAD /* WeatherCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A512A1229110026BBAD /* WeatherCollection.swift */; };
+		7F531A5E2A12291A0026BBAD /* CryptoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A5A2A12291A0026BBAD /* CryptoMainView.swift */; };
+		7F531A5F2A12291A0026BBAD /* CryptoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A5B2A12291A0026BBAD /* CryptoMainViewController.swift */; };
+		7F531A602A12291A0026BBAD /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A5C2A12291A0026BBAD /* CryptoCell.swift */; };
+		7F531A612A12291A0026BBAD /* CryptoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A5D2A12291A0026BBAD /* CryptoTabBarController.swift */; };
+		7F531A672A12291F0026BBAD /* SinglesCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A632A12291F0026BBAD /* SinglesCollectionViewHeader.swift */; };
+		7F531A682A12291F0026BBAD /* SinglesTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A642A12291F0026BBAD /* SinglesTabBarController.swift */; };
+		7F531A692A12291F0026BBAD /* SinglesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A652A12291F0026BBAD /* SinglesCollectionViewCell.swift */; };
+		7F531A6A2A12291F0026BBAD /* SinglesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A662A12291F0026BBAD /* SinglesCollectionViewController.swift */; };
+		7F531A6F2A12292E0026BBAD /* TravelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A6C2A12292E0026BBAD /* TravelHeader.swift */; };
+		7F531A702A12292E0026BBAD /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A6D2A12292E0026BBAD /* TravelCell.swift */; };
+		7F531A712A12292E0026BBAD /* TravelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A6E2A12292E0026BBAD /* TravelCollectionViewController.swift */; };
+		7F531A752A1229330026BBAD /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A732A1229330026BBAD /* Shadow.swift */; };
+		7F531A762A1229330026BBAD /* FlaxiableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A742A1229330026BBAD /* FlaxiableLayout.swift */; };
+		7F531A7C2A12293A0026BBAD /* FinanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A782A12293A0026BBAD /* FinanceCell.swift */; };
+		7F531A7D2A12293A0026BBAD /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A792A12293A0026BBAD /* FinanceView.swift */; };
+		7F531A7E2A12293A0026BBAD /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A7A2A12293A0026BBAD /* FinanceViewController.swift */; };
+		7F531A7F2A12293A0026BBAD /* FinanceFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A7B2A12293A0026BBAD /* FinanceFooter.swift */; };
+		7F531A832A12293F0026BBAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A812A12293F0026BBAD /* AppDelegate.swift */; };
+		7F531A842A12293F0026BBAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F531A822A12293F0026BBAD /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07DCAE4C299350949E067179 /* Pods_ENeobis_iOS_UIScreens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ENeobis_iOS_UIScreens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A50157FC0A2A44F1A9FF272 /* Pods-ENeobis_iOS_UIScreens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ENeobis_iOS_UIScreens.release.xcconfig"; path = "Target Support Files/Pods-ENeobis_iOS_UIScreens/Pods-ENeobis_iOS_UIScreens.release.xcconfig"; sourceTree = "<group>"; };
+		51A2335614524F5AC98B655A /* Pods-ENeobis_iOS_UIScreens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ENeobis_iOS_UIScreens.debug.xcconfig"; path = "Target Support Files/Pods-ENeobis_iOS_UIScreens/Pods-ENeobis_iOS_UIScreens.debug.xcconfig"; sourceTree = "<group>"; };
+		7F531A232A1227F90026BBAD /* ENeobis_iOS_UIScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ENeobis_iOS_UIScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F531A2D2A1227F90026BBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F531A2F2A1227F90026BBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F531A322A1227F90026BBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F531A342A1227F90026BBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F531A3B2A1228F70026BBAD /* Serials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serials.swift; sourceTree = "<group>"; };
+		7F531A3C2A1228F70026BBAD /* Finance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		7F531A3D2A1228F70026BBAD /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		7F531A3E2A1228F70026BBAD /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		7F531A452A12290A0026BBAD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7F531A462A12290A0026BBAD /* MainViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		7F531A4B2A1229110026BBAD /* WeatherMiddleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherMiddleCollectionViewController.swift; sourceTree = "<group>"; };
+		7F531A4C2A1229110026BBAD /* WeatherWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherWeekView.swift; sourceTree = "<group>"; };
+		7F531A4D2A1229110026BBAD /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		7F531A4F2A1229110026BBAD /* WeatherBottomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherBottomCell.swift; sourceTree = "<group>"; };
+		7F531A502A1229110026BBAD /* WeatherBottomCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherBottomCollectionViewController.swift; sourceTree = "<group>"; };
+		7F531A512A1229110026BBAD /* WeatherCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCollection.swift; sourceTree = "<group>"; };
+		7F531A5A2A12291A0026BBAD /* CryptoMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoMainView.swift; sourceTree = "<group>"; };
+		7F531A5B2A12291A0026BBAD /* CryptoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoMainViewController.swift; sourceTree = "<group>"; };
+		7F531A5C2A12291A0026BBAD /* CryptoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
+		7F531A5D2A12291A0026BBAD /* CryptoTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoTabBarController.swift; sourceTree = "<group>"; };
+		7F531A632A12291F0026BBAD /* SinglesCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglesCollectionViewHeader.swift; sourceTree = "<group>"; };
+		7F531A642A12291F0026BBAD /* SinglesTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglesTabBarController.swift; sourceTree = "<group>"; };
+		7F531A652A12291F0026BBAD /* SinglesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7F531A662A12291F0026BBAD /* SinglesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglesCollectionViewController.swift; sourceTree = "<group>"; };
+		7F531A6C2A12292E0026BBAD /* TravelHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelHeader.swift; sourceTree = "<group>"; };
+		7F531A6D2A12292E0026BBAD /* TravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
+		7F531A6E2A12292E0026BBAD /* TravelCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewController.swift; sourceTree = "<group>"; };
+		7F531A732A1229330026BBAD /* Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		7F531A742A1229330026BBAD /* FlaxiableLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlaxiableLayout.swift; sourceTree = "<group>"; };
+		7F531A782A12293A0026BBAD /* FinanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceCell.swift; sourceTree = "<group>"; };
+		7F531A792A12293A0026BBAD /* FinanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		7F531A7A2A12293A0026BBAD /* FinanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		7F531A7B2A12293A0026BBAD /* FinanceFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceFooter.swift; sourceTree = "<group>"; };
+		7F531A812A12293F0026BBAD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F531A822A12293F0026BBAD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F531A202A1227F90026BBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EE3591E0B9B75BBCE52ACC /* Pods_ENeobis_iOS_UIScreens.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F56F47881A384D8BD65398 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51A2335614524F5AC98B655A /* Pods-ENeobis_iOS_UIScreens.debug.xcconfig */,
+				4A50157FC0A2A44F1A9FF272 /* Pods-ENeobis_iOS_UIScreens.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47FE8DFEA7C78BE68F1235AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DCAE4C299350949E067179 /* Pods_ENeobis_iOS_UIScreens.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F531A1A2A1227F80026BBAD = {
+			isa = PBXGroup;
+			children = (
+				7F531A252A1227F90026BBAD /* ENeobis_iOS_UIScreens */,
+				7F531A242A1227F90026BBAD /* Products */,
+				46F56F47881A384D8BD65398 /* Pods */,
+				47FE8DFEA7C78BE68F1235AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F531A242A1227F90026BBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A232A1227F90026BBAD /* ENeobis_iOS_UIScreens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F531A252A1227F90026BBAD /* ENeobis_iOS_UIScreens */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A3A2A1228F70026BBAD /* Model */,
+				7F531A432A12290A0026BBAD /* View */,
+				7F531A4A2A1229110026BBAD /* Weather */,
+				7F531A622A12291F0026BBAD /* Singles */,
+				7F531A592A12291A0026BBAD /* Crypto */,
+				7F531A6B2A12292E0026BBAD /* Travel */,
+				7F531A772A12293A0026BBAD /* Finance */,
+				7F531A722A1229330026BBAD /* Helper */,
+				7F531A802A12293F0026BBAD /* Delegate */,
+				7F531A2C2A1227F90026BBAD /* Main.storyboard */,
+				7F531A2F2A1227F90026BBAD /* Assets.xcassets */,
+				7F531A312A1227F90026BBAD /* LaunchScreen.storyboard */,
+				7F531A342A1227F90026BBAD /* Info.plist */,
+			);
+			path = ENeobis_iOS_UIScreens;
+			sourceTree = "<group>";
+		};
+		7F531A3A2A1228F70026BBAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A3B2A1228F70026BBAD /* Serials.swift */,
+				7F531A3C2A1228F70026BBAD /* Finance.swift */,
+				7F531A3D2A1228F70026BBAD /* Crypto.swift */,
+				7F531A3E2A1228F70026BBAD /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F531A432A12290A0026BBAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A452A12290A0026BBAD /* MainViewController.swift */,
+				7F531A462A12290A0026BBAD /* MainViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F531A4A2A1229110026BBAD /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A4B2A1229110026BBAD /* WeatherMiddleCollectionViewController.swift */,
+				7F531A4C2A1229110026BBAD /* WeatherWeekView.swift */,
+				7F531A4D2A1229110026BBAD /* WeatherViewController.swift */,
+				7F531A4F2A1229110026BBAD /* WeatherBottomCell.swift */,
+				7F531A502A1229110026BBAD /* WeatherBottomCollectionViewController.swift */,
+				7F531A512A1229110026BBAD /* WeatherCollection.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		7F531A592A12291A0026BBAD /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A5A2A12291A0026BBAD /* CryptoMainView.swift */,
+				7F531A5B2A12291A0026BBAD /* CryptoMainViewController.swift */,
+				7F531A5C2A12291A0026BBAD /* CryptoCell.swift */,
+				7F531A5D2A12291A0026BBAD /* CryptoTabBarController.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		7F531A622A12291F0026BBAD /* Singles */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A632A12291F0026BBAD /* SinglesCollectionViewHeader.swift */,
+				7F531A642A12291F0026BBAD /* SinglesTabBarController.swift */,
+				7F531A652A12291F0026BBAD /* SinglesCollectionViewCell.swift */,
+				7F531A662A12291F0026BBAD /* SinglesCollectionViewController.swift */,
+			);
+			path = Singles;
+			sourceTree = "<group>";
+		};
+		7F531A6B2A12292E0026BBAD /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A6C2A12292E0026BBAD /* TravelHeader.swift */,
+				7F531A6D2A12292E0026BBAD /* TravelCell.swift */,
+				7F531A6E2A12292E0026BBAD /* TravelCollectionViewController.swift */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		7F531A722A1229330026BBAD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A732A1229330026BBAD /* Shadow.swift */,
+				7F531A742A1229330026BBAD /* FlaxiableLayout.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7F531A772A12293A0026BBAD /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A782A12293A0026BBAD /* FinanceCell.swift */,
+				7F531A792A12293A0026BBAD /* FinanceView.swift */,
+				7F531A7A2A12293A0026BBAD /* FinanceViewController.swift */,
+				7F531A7B2A12293A0026BBAD /* FinanceFooter.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		7F531A802A12293F0026BBAD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7F531A812A12293F0026BBAD /* AppDelegate.swift */,
+				7F531A822A12293F0026BBAD /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F531A222A1227F90026BBAD /* ENeobis_iOS_UIScreens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F531A372A1227F90026BBAD /* Build configuration list for PBXNativeTarget "ENeobis_iOS_UIScreens" */;
+			buildPhases = (
+				2AF23C03646EF7E928B5A344 /* [CP] Check Pods Manifest.lock */,
+				7F531A1F2A1227F90026BBAD /* Sources */,
+				7F531A202A1227F90026BBAD /* Frameworks */,
+				7F531A212A1227F90026BBAD /* Resources */,
+				AD5BF20A3E4B41829AAD82A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ENeobis_iOS_UIScreens;
+			productName = ENeobis_iOS_UIScreens;
+			productReference = 7F531A232A1227F90026BBAD /* ENeobis_iOS_UIScreens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F531A1B2A1227F80026BBAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7F531A222A1227F90026BBAD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7F531A1E2A1227F80026BBAD /* Build configuration list for PBXProject "ENeobis_iOS_UIScreens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F531A1A2A1227F80026BBAD;
+			productRefGroup = 7F531A242A1227F90026BBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F531A222A1227F90026BBAD /* ENeobis_iOS_UIScreens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F531A212A1227F90026BBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F531A332A1227F90026BBAD /* LaunchScreen.storyboard in Resources */,
+				7F531A302A1227F90026BBAD /* Assets.xcassets in Resources */,
+				7F531A2E2A1227F90026BBAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF23C03646EF7E928B5A344 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ENeobis_iOS_UIScreens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5BF20A3E4B41829AAD82A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ENeobis_iOS_UIScreens/Pods-ENeobis_iOS_UIScreens-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ENeobis_iOS_UIScreens/Pods-ENeobis_iOS_UIScreens-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ENeobis_iOS_UIScreens/Pods-ENeobis_iOS_UIScreens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F531A1F2A1227F90026BBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F531A6A2A12291F0026BBAD /* SinglesCollectionViewController.swift in Sources */,
+				7F531A612A12291A0026BBAD /* CryptoTabBarController.swift in Sources */,
+				7F531A572A1229110026BBAD /* WeatherBottomCollectionViewController.swift in Sources */,
+				7F531A492A12290A0026BBAD /* MainViewCell.swift in Sources */,
+				7F531A5E2A12291A0026BBAD /* CryptoMainView.swift in Sources */,
+				7F531A752A1229330026BBAD /* Shadow.swift in Sources */,
+				7F531A542A1229110026BBAD /* WeatherViewController.swift in Sources */,
+				7F531A682A12291F0026BBAD /* SinglesTabBarController.swift in Sources */,
+				7F531A412A1228F70026BBAD /* Crypto.swift in Sources */,
+				7F531A7E2A12293A0026BBAD /* FinanceViewController.swift in Sources */,
+				7F531A7F2A12293A0026BBAD /* FinanceFooter.swift in Sources */,
+				7F531A562A1229110026BBAD /* WeatherBottomCell.swift in Sources */,
+				7F531A522A1229110026BBAD /* WeatherMiddleCollectionViewController.swift in Sources */,
+				7F531A842A12293F0026BBAD /* SceneDelegate.swift in Sources */,
+				7F531A402A1228F70026BBAD /* Finance.swift in Sources */,
+				7F531A7C2A12293A0026BBAD /* FinanceCell.swift in Sources */,
+				7F531A5F2A12291A0026BBAD /* CryptoMainViewController.swift in Sources */,
+				7F531A712A12292E0026BBAD /* TravelCollectionViewController.swift in Sources */,
+				7F531A602A12291A0026BBAD /* CryptoCell.swift in Sources */,
+				7F531A762A1229330026BBAD /* FlaxiableLayout.swift in Sources */,
+				7F531A672A12291F0026BBAD /* SinglesCollectionViewHeader.swift in Sources */,
+				7F531A6F2A12292E0026BBAD /* TravelHeader.swift in Sources */,
+				7F531A702A12292E0026BBAD /* TravelCell.swift in Sources */,
+				7F531A3F2A1228F70026BBAD /* Serials.swift in Sources */,
+				7F531A532A1229110026BBAD /* WeatherWeekView.swift in Sources */,
+				7F531A692A12291F0026BBAD /* SinglesCollectionViewCell.swift in Sources */,
+				7F531A422A1228F70026BBAD /* Weather.swift in Sources */,
+				7F531A7D2A12293A0026BBAD /* FinanceView.swift in Sources */,
+				7F531A582A1229110026BBAD /* WeatherCollection.swift in Sources */,
+				7F531A832A12293F0026BBAD /* AppDelegate.swift in Sources */,
+				7F531A482A12290A0026BBAD /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F531A2C2A1227F90026BBAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F531A2D2A1227F90026BBAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F531A312A1227F90026BBAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F531A322A1227F90026BBAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F531A352A1227F90026BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F531A362A1227F90026BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F531A382A1227F90026BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A2335614524F5AC98B655A /* Pods-ENeobis_iOS_UIScreens.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ENeobis_iOS_UIScreens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UstaGaiypov.ENeobis-iOS-UIScreens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F531A392A1227F90026BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A50157FC0A2A44F1A9FF272 /* Pods-ENeobis_iOS_UIScreens.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ENeobis_iOS_UIScreens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UstaGaiypov.ENeobis-iOS-UIScreens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F531A1E2A1227F80026BBAD /* Build configuration list for PBXProject "ENeobis_iOS_UIScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F531A352A1227F90026BBAD /* Debug */,
+				7F531A362A1227F90026BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F531A372A1227F90026BBAD /* Build configuration list for PBXNativeTarget "ENeobis_iOS_UIScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F531A382A1227F90026BBAD /* Debug */,
+				7F531A392A1227F90026BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F531A1B2A1227F80026BBAD /* Project object */;
+}
